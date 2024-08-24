@@ -1,0 +1,13 @@
+header {
+    font-size: 48px;
+    color: #007bff; /* Plava boja */
+    font-family: 'Arial', sans-serif; /* Možeš promeniti u drugi font ako želiš */
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: #f8f9fa; /* Svetla pozadina za header */
+    border-bottom: 2px solid #e7e7e7;
+  }
