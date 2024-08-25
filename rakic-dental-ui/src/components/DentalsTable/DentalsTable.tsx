@@ -7,7 +7,9 @@ interface Dentist {
 }
 
 const DentalsTable = () => {
+
   const [dentists, setDentists] = useState<Dentist[]>([]);
+  
   useEffect(() => {
     fetch("https://localhost:44389/api/Dentists", {
       method: "GET",
