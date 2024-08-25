@@ -1,40 +1,40 @@
 header {
     font-size: 20px;
-    color: #007bff; /* Plava boja */
-    font-family: 'Arial', sans-serif; /* Možeš promeniti u drugi font ako želiš */
+    color: #007bff; 
+    font-family: 'Arial', sans-serif; 
     text-align: center;
     margin-top: 20px;
     padding: 20px;
-    background-color: #f8f9fa; /* Svetla pozadina za header */
+    background-color: #f8f9fa; 
     border-bottom: 2px solid #e7e7e7;
   }
   
  
 
   .navbar {
-    display: flex; /* Postavlja sve unutar navbara u jednu liniju */
-    justify-content: space-between; /* Razdvaja logo i linkove */
-    align-items: center; /* Centriranje po vertikali */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
     background-color: #333;
     padding: 1rem;
   }
   
-  /* Stilizacija logotipa */
+  
   .logo h1 {
     color: #fff;
     margin: 0;
   }
   
-  /* Stilizacija linkova */
+  
   .nav-links {
-    list-style-type: none; /* Uklanja tačke sa liste */
-    display: flex; /* Postavlja linkove u jednu liniju */
+    list-style-type: none;
+    display: flex;
     margin: 0;
     padding: 0;
   }
   
   .nav-links li {
-    margin-left: 20px; /* Razmak između linkova */
+    margin-left: 20px;
   }
   
   .nav-links a {

@@ -4,17 +4,23 @@ table {
     max-width: 600px;
     margin: 20px auto;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
+   
+    
   }
   
   th, td {
     padding: 12px;
     border-bottom: 1px solid #ddd;
+    margin: left 30%;
+    
+    
   }
   
   th {
     background-color: #f2f2f2;
     text-align: center;
+    
   }
   
   tr:hover {

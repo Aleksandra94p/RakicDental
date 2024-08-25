@@ -31,7 +31,7 @@ const DentalsTable = () => {
     <table>
       <thead>
         <tr>
-          <th>Doktori</th>
+          <th colSpan={2}>Doktori</th>
           <th></th>
         </tr>
       </thead>
