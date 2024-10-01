@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace RakicDental.Models
@@ -9,6 +10,7 @@ namespace RakicDental.Models
         public string Name { get; set; }
         public string LastName { get; set; }
         public string PhoneNumber { get; set; }
+        public DateTime LastCheckupDate { get; set; }
         public ICollection <Treatment> Treatments { get; set; }
 
     }
