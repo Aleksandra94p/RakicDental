@@ -6,6 +6,11 @@
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Glatka animacija */
+    transform: scale(1); /* Podrazumevana veličina */
+    box-shadow: 0 2px 8px rgba(0, 0, 0); /* Blagi efekat senke */
+    margin-top: 10%;
+    background-color: white;
 }
 
 .card-image {
@@ -27,6 +32,11 @@
 .card-content p {
     font-size: 1em;
     color: #666;
+}
+.card:hover {
+    transform: scale(1.1); /* Povećava karticu za 10% */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Naglašenija senka */
+    cursor: pointer; 
 }
 
 .dentist-list {
