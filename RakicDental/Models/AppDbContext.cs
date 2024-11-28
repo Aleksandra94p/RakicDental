@@ -21,9 +21,9 @@ namespace RakicDental.Models
              });
 
             modelBuilder.Entity<Dentist>().HasData(
-                new Dentist() {Id = 1, Name = "Ljubomir", LastName = "Rakic" },
-                 new Dentist() {Id = 2, Name = "Jasmina", LastName = "Rakic" },
-                  new Dentist() {Id = 3, Name = "Boris", LastName = "Vrhovac" }
+                new Dentist() {Id = 1, Name = "Ljubomir", LastName = "Rakić", Specialization = "Oralni hirurg" },
+                 new Dentist() {Id = 2, Name = "Jasmina", LastName = "Rakić", Specialization = "Protetičar" },
+                  new Dentist() {Id = 3, Name = "Boris", LastName = "Vrhovac", Specialization = "Ortodont" }
                 );
 
             
