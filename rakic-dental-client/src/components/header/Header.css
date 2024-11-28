@@ -1,0 +1,15 @@
+
+    header {
+        background-color: hsla(207, 74%, 70%, 0.7); /* Pozadina sa 70% opaciteta */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: hsla(240, 3%, 6%, 0.783);
+        margin: 0; /* Uklanja sve margine */
+        padding: 1px;
+        text-align: center;
+        height: 50px;
+        margin-top: 0%;
+        position: relative; /* Ako je potrebno, možeš postaviti kao 'fixed' da ostane na vrhu kad se skroluje */
+    
+    }
+
+
