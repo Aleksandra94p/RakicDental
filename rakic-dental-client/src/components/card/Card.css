@@ -1,0 +1,38 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-content h2 {
+    font-size: 1.5em;
+    margin: 0 0 8px;
+}
+
+.card-content p {
+    font-size: 1em;
+    color: #666;
+}
+
+.dentist-list {
+    display: flex; /* Aktivira fleksibilni raspored */
+    flex-wrap: wrap; /* Omogućava prelazak u novi red ako nema dovoljno mesta */
+    gap: 16px; /* Razmak između kartica */
+    justify-content: center; /* Poravnanje kartica po horizontali */
+    padding: 16px; /* Razmak oko liste */
+}

@@ -11,6 +11,7 @@ namespace RakicDental.Models.DTO
         public int DentistId { get; set; }
         public string DentistName { get; set; }
         public string DentistLastName { get; set; }
+        public string DentistSpecialization { get; set; }
 
     }
 }
